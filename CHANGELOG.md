@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Added
+- Swift Package Manager support for iOS (CocoaPods remains supported).
+
+### Changed
+- iOS plugin rewritten as pure Swift (removed Objective-C bridge); minimum iOS version is now 13.0.
+- Removed unused `OpenSSL-Universal` CocoaPods dependency.
+
 ## [5.0.0] - 2026-03-04
 
 ### Added
